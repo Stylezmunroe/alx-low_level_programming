@@ -5,8 +5,7 @@
  * free_list - frees a linked list.
  * @h: pointer to the start of the list.
  *
- * This function frees the memory occupied by a linked list.
- * It iterates through the list, releasing each node and its data.
+ * This function frees the memory occupied by a linked list and its data.
  */
 void free_list(list_t *h)
 {
