@@ -9,16 +9,16 @@
 */
 size_t print_list(const list_t *head)
 {
-size_t a = 0;
+	size_t a = 0;
 
-while (head)
-{
-if (!head->str)
-	printf("[0] (nil)\n");
-else
-	printf("[%u] %s\n", head->len, head->str);
-head = head->next;
-a++;
-}
-return (a);
+	while (head)
+	{
+		if (!head->str)
+			printf("[0] (nil)\n");
+		else
+			printf("[%u] %s\n", head->len, head->str);
+		head = head->next;
+		a++;
+	}
+	return (a);
 }
