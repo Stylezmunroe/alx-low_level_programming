@@ -3,10 +3,10 @@
 int actual_sqrt_recursion(int n, int i);
 
 /**
- * _sqrt_recursion - returns the natural square root of a number
- * @n: number to calculate the square root of
+ * _sqrt_recursion - Returns the natural square root of a number.
+ * @n: The number to calculate the square root of.
  *
- * Return: the resulting square root
+ * Return: The resulting square root, or -1 if n is negative.
  */
 int _sqrt_recursion(int n)
 {
@@ -16,12 +16,11 @@ int _sqrt_recursion(int n)
 }
 
 /**
- * actual_sqrt_recursion - recurses to find the natural
- * square root of a number
- * @n: number to calculate the sqaure root of
- * @i: iterator
+ * actual_sqrt_recursion - Recursively calculates the square root.
+ * @n: The number to calculate the square root of.
+ * @i: Iterator.
  *
- * Return: the resulting square root
+ * Return: The resulting square root, or -1 if there's no natural square root.
  */
 int actual_sqrt_recursion(int n, int i)
 {
