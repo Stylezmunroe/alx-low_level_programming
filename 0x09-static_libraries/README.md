@@ -1,16 +1,11 @@
-C - Static libraries
+Title: "Building Static Libraries in C"
 
-TASKS
+**Task 0: Creating a Static Library**
 
+In this task, you are required to create a static library named "libmy.a" that includes the functions listed below. If you haven't implemented all of these functions, please create empty ones with the correct function prototypes. Additionally, ensure that your "main.h" file contains prototypes for all the functions mentioned.
 
-[0. A library is not a luxury but one of the necessities of life](libmy.a)
+**Task 1: Script for Static Library Creation**
 
-Create the static library libmy.a containing all the functions listed below:
+To simplify the process of creating a static library from multiple source files, you should develop a script named "create_static_lib.sh." This script will create a static library named "liball.a" by collecting all the ".c" files present in the current directory.
 
-If you haven’t coded all of the above functions create empty ones with the right prototype.
-Don’t forget to push your main.h file to your repository. It should at least contain all the prototypes of the above functions.
-
-[1. Without libraries what have we? We have no past and no future](create_static_lib.sh)
-
-Create a script called create_static_lib.sh that creates a static library called liball.a from all the .c files that are in the current directory.
-
+By completing these tasks, you will efficiently manage your library and simplify the creation of static libraries, laying the foundation for your programming projects.
